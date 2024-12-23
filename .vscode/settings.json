@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "cstdio": "c",
+        "*.tcc": "c",
+        "algorithm": "c",
+        "random": "c",
+        "numeric": "c",
+        "streambuf": "c",
+        "ctype.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
