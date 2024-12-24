@@ -22,21 +22,23 @@ Dasturni to'xtatish uchun            5
     if a==1:
         if l1>0:
             b=c.sharel1(l1,l2) 
-            l1=b(0)
-            l2=b(1)
+            l1,l2=b[0],b[1]
+            print(f"Hozirgi holat [{l1},{l2}]")
         else:
-            print("1-odamda tangalar soni 0 ta qoldi va share qilish imkonsiz.")       
+            print("1-odamda tangalar soni 0 ta qoldi va share qilish imkonsiz.") 
+            print(f"Hozirgi holat [{l1},{l2}]")      
     elif a==2:
-        pass
+        print(f"Hozirgi holat [{l1},{l2}]")
     elif a==3:
         if l2>0:
             b=c.sharel2(l1,l2)
-            l1=b(0)
-            l2=b(1)
+            l1,l2=b[0],b[1]
+            print(f"Hozirgi holat [{l1},{l2}]")
         else :
             print("2-odamda tangalar soni 0 ta qoldi va share qilish imkonsiz.") 
+            print(f"Hozirgi holat [{l1},{l2}]")
     elif a==4:
-        pass
+         print(f"Hozirgi holat [{l1},{l2}]")
     elif a==5:
         print(f'[{l1},{l2}]')
         break
